@@ -18,9 +18,9 @@ while True:
     if key == 'n':
         number += 1
         clean()
-        print(f"Has presionado la tecla '{key}' {number} veces de 60 posibles, sigue así")
+        print(f"Has presionado la tecla '{key}' {number} veces de 50 posibles, sigue así")
 
-        if number == 60:
+        if number == 50:
             clean()
             print(f"Felicitaciones, has presionado exitosamente la tecla 'n' {number} veces")
             break
